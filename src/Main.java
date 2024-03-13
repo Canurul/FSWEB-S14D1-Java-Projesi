@@ -1,3 +1,5 @@
+import Company.JuniorDeveloper;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -39,6 +41,15 @@ public class Main {
         System.out.println("cuboid.height= " + cuboid.getHeight());
 
         System.out.println("cuboid.volume= " + cuboid.getVolume());
+
+
 */
+        JuniorDeveloper juniorDeveloper1 = new JuniorDeveloper(1,"Can");
+        JuniorDeveloper juniorDeveloper2 = new JuniorDeveloper(2,"Sıla");
+        juniorDeveloper1.work();
+        juniorDeveloper2.work();
+        System.out.println(juniorDeveloper1);
+        System.out.println(juniorDeveloper2);
+
     }
 }
